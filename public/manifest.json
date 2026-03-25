@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "DesignSafe AI",
+  "version": "1.0.0",
+  "description": "Analyze designs for copyright risks and generate original, safe versions using AI.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.google.com/*"
+  ]
+}

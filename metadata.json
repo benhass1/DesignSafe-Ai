@@ -1,0 +1,5 @@
+{
+  "name": "DesignSafe AI",
+  "description": "A Chrome extension that analyzes designs for copyright risks and generates original, safe versions using AI.",
+  "requestFramePermissions": ["camera"]
+}
